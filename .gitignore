@@ -1,0 +1,27 @@
+# Mac ignores
+.DS_Store
+._.DS_Store
+._*
+
+# Node ignores
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+npm-debug.log
+node_modules
+!/platforms/android/cordova/node_modules
+
+# Grunt ignores
+_SpecRunner.html
+.grunt
+
+# Output ignores
+/www/*
